@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+{% block container %}
+	<div class="jumbotron">
+		<h1>{{ post.title }}</h1>
+	</div>
+
+	<div class="post" id="post-{{ post.id }}">
+		<div class="time" style="text-align:center;"> {{ post.pub_date }}</div>
+		<div class="body">
+			{{ post.body|safe }}
+		</div>
+	</div>
+
+{% endblock %}

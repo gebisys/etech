@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800);
+@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic);
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	font-family: 'Gentium Book Basic', serif;
+}
+
+a{
+	color:#a51e22;
+}
+
+a:hover{
+	text-decoration:none;
+}
+.sidebar-nav {
+	padding: 9px 0;
+}
+
+.navbar-inner {
+	font-family: 'Lato', sans-serif !important;
+}
+
+.jumbotron h1 {
+	font-size: 50px;
+	line-height: 1;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	text-transform:uppercase;
+	font-weight:800;
+}
+
+.post {
+	margin:20px 0;
+	border-bottom:1px solid #f1f1f1;
+}
+
+.post h2 a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:800;
+}
+
+.post .body {
+	font-size:18px;
+}
+
+.post .body p {
+	color:#606060 !important;
+	margin:10px 0;
+	line-height:150%;
+}
+
+.post .time {
+	font-family: 'Lato', sans-serif !important;
+}

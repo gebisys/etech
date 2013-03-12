@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+{% block container %}
+	<div class="jumbotron">
+		<h1>Powered django Blog</h1>
+	</div>
+
+	{% for post in list_post %}
+		<div class="post" id="post-{{ post.id }}">
+			<h2> <a href="{{ post.get_absolute_url }}"> {{ post.title }} </a> </h2>
+			<div class="time">{{ post.pub_date }}</div>
+			<div class="body">
+				{{ post.body|safe }}
+			</div>
+		</div>
+	{% endfor %}
+
+{% endblock %}
